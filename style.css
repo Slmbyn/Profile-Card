@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  .maindiv {
+     height: 50vh;
+     width: 30vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40% 20% 20% 20%;
+    
+
+  }
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    font-family: Helvetica;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(15,70,70);
+  }
+  
+
+.flex-ctr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.profile{
+    grid-row: 1 / 2;
+    background-color: white;
+    grid-column: 1 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.rating{
+    background-color: rgb(240,240,240);
+    grid-column: 1 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.price {
+    background-color: white;
+    grid-column: 1 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+#callus {
+    background-color: rgb(87, 202, 118);
+    grid-column: 1 / 2;
+    grid-row: 4 / 5 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    color: white;
+}
+
+#textus {
+    background-color: rgb(76,178,105);
+    grid-column: 2 / 3;
+    grid-row: 4 / 5 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    color: white;
+}
+
+
+.profilepic {
+    border: 4px solid rgb(87, 202, 118);
+    border-radius: 50%;
+    width: 150px;
+    
+
+}
+
+.free {
+    font-size: 20px;
+}
+
+.then {
+    color: lightgrey;
+
+}
+
+.name {
+    padding-top: 15px;
+    font-size: 30px;
+}
